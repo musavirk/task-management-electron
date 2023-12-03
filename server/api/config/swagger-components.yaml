@@ -1,0 +1,55 @@
+components:
+  schemas:
+    GeneralError:
+      type: object
+      properties:
+        data:
+          type: any
+        error:
+          type: string
+      example:
+        data: null
+        error: Something went wrong.
+    NotFoundError:
+      type: object
+      properties:
+        data:
+          type: any
+        error:
+          type: string
+      example:
+        data: null
+        error: Requested item not found.
+    BadRequestError:
+      type: object
+      properties:
+        data:
+          type: any
+        error:
+          type: string
+      example:
+        data: null
+        error: First name should not be empty.
+    Task:
+      type: object
+      properties:
+        id:
+          type: string
+          example: T-001
+        type:
+          type: string
+          enum:
+            - Urgent and Important
+            - Not Urgent but Important
+            - Urgent but Not Important
+          example: Urgent and Important
+        heading:
+          type: string
+          example: Exam
+        status:
+          type: string
+          enum:
+            - ToDO
+            - InProgress
+            - Done
+          example: ToDo
