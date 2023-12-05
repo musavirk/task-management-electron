@@ -14,7 +14,7 @@ export const createTask = async (req, res) => {
     const task = await TaskService.createTask(req.body);
     return handleSuccessResponse(res, task);
   } catch (error) {
-    return handleErrorResponse(res, 500, 'Could not create  Task.', error);
+    return handleErrorResponse(res, 500, error.message, error);
   }
 };
 

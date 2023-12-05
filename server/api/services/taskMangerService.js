@@ -9,8 +9,7 @@ export default class TaskService {
     // Define a query object to perform a search on all fields
     const searchQuery = {
       $or: [
-        { status: { $regex: search, $options: 'i' } }, // Case-insensitive search in the 'name' field
-        { type: { $regex: search, $options: 'i' } },
+        { heading: { $regex: search, $options: 'i' } }, // Case-insensitive search in the 'name' field
       ],
     };
 

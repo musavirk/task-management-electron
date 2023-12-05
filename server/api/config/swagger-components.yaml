@@ -33,23 +33,9 @@ components:
     Task:
       type: object
       properties:
-        id:
-          type: string
-          example: T-001
-        type:
-          type: string
-          enum:
-            - Urgent and Important
-            - Not Urgent but Important
-            - Urgent but Not Important
-          example: Urgent and Important
         heading:
           type: string
           example: Exam
-        status:
-          type: string
-          enum:
-            - ToDO
-            - InProgress
-            - Done
-          example: ToDo
+        completed:
+          type: boolean
+          example: false

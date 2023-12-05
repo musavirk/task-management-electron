@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #61dafbaa;
+  border-radius: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+
+.heading {
+  width: 300px;
+  background-color: rgb(161, 207, 192);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  color: black;
+}
+
+.status {
+  min-width: 80px;
+  width: auto;
+  border-radius: 3px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.main input {
+  background-color: white;
+  height: 30px;
+
+  border-radius: 5px;
+  color: black;
+}
+
+.main button {
+  margin: 0 5px;
+}

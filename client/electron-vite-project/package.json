@@ -1,5 +1,5 @@
 {
-  "name": "to-do-app",
+  "name": "electron-to-do-react",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -9,8 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.0.0",
+    "axios": "^1.6.2",
+    "electron-devtools-installer": "^3.2.0",
+    "immutability-helper": "^3.1.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
+    "react-redux": "^9.0.0",
+    "redux": "^5.0.0",
     "vite-tsconfig-paths": "^4.2.1"
   },
   "devDependencies": {
