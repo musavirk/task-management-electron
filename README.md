@@ -6,7 +6,7 @@
 
 ### Documentation
 
-- Swagger based documentations are generated at `/docs` route (`http://localhost:500/v1/docs`)
+- Swagger based documentations are generated at `/docs` route (`http://localhost:5000/v1/docs`)
 
 ### Packaging
 
