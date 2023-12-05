@@ -16,7 +16,7 @@ Desktop App for manage Tasks
 - Navigate to your proffered working directory (Example: `cd Desktop/projects`)
 - Make sure you are in the expected directory (`pwd` and `ls`)
 - Clone the repository using SSH (`git@github.com:musavirk/task-management-electron.git`)
-- Navigate to the API (`cd task-management-electron/server/api`)
+- Navigate to the API (`cd task-management-electron/api`)
 - Install node dependencies (`npm i`)
 - Copy environment variable file and edit the created `.env` file content (`cp .env.example .env`)
 - Run the pre-commit hook config
